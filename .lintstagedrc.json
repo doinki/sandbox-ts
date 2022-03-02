@@ -1,0 +1,1 @@
+{ "*.@(j|t)s?(x)": "eslint --fix", "*.json": "prettier --write" }

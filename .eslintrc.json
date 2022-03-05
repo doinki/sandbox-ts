@@ -18,6 +18,7 @@
     "typescript-sort-keys"
   ],
   "rules": {
+    "@typescript-eslint/consistent-type-imports": "error",
     "jsx-a11y/alt-text": ["error", { "img": ["Image"] }],
     "jsx-a11y/anchor-is-valid": [
       "error",

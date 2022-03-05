@@ -192,7 +192,14 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@17.0.39":
+"@types/react-dom@^17.0.13":
+  version "17.0.13"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.13.tgz#a3323b974ee4280070982b3112351bb1952a7809"
+  integrity sha512-wEP+B8hzvy6ORDv1QBhcQia4j6ea4SFIBttHYpXKPFZRviBvknq0FRh3VrIxeXUmsPkwuXVZrVGG7KUVONmXCQ==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@17.0.39":
   version "17.0.39"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.39.tgz#d0f4cde092502a6db00a1cded6e6bf2abb7633ce"
   integrity sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==
@@ -528,9 +535,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001283, caniuse-lite@^1.0.30001297, caniuse-lite@^1.0.30001312:
-  version "1.0.30001312"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001312.tgz#e11eba4b87e24d22697dae05455d5aea28550d5f"
-  integrity sha512-Wiz1Psk2MEK0pX3rUzWaunLTZzqS2JYZFzNKqAiJGiuxIjRPLgV6+VDPOg6lQOUxmDwhTlh198JsTTi8Hzw6aQ==
+  version "1.0.30001313"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
+  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -775,9 +782,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.71:
-  version "1.4.75"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.75.tgz#d1ad9bb46f2f1bf432118c2be21d27ffeae82fdd"
-  integrity sha512-LxgUNeu3BVU7sXaKjUDD9xivocQLxFtq6wgERrutdY/yIOps3ODOZExK1jg8DTEg4U8TUCb5MLGeWFOYuxjF3Q==
+  version "1.4.76"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz#a0494baedaf51094b1c172999919becd9975a934"
+  integrity sha512-3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1628,10 +1635,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^12.3.4:
-  version "12.3.4"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.4.tgz#4b1ff8c394c3e6da436aaec5afd4db18b5dac360"
-  integrity sha512-yv/iK4WwZ7/v0GtVkNb3R82pdL9M+ScpIbJLJNyCXkJ1FGaXvRCOg/SeL59SZtPpqZhE7BD6kPKFLIDUhDx2/w==
+lint-staged@^12.3.5:
+  version "12.3.5"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.5.tgz#8048ce048c3cac12f57200a06344a54dc91c8fa9"
+  integrity sha512-oOH36RUs1It7b9U/C7Nl/a0sLfoIBcMB8ramiB3nuJ6brBqzsWiUAFSR5DQ3yyP/OR7XKMpijtgKl2DV1lQ3lA==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"

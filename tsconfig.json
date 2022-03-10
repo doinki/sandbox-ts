@@ -19,7 +19,6 @@
       "@/icons": ["src/components/atoms/icons/index.ts"],
       "@/molecules": ["src/components/molecules/index.ts"],
       "@/organisms": ["src/components/organisms/index.ts"],
-      "@/styles": ["src/styles/index.ts"],
       "@/styles/global.css": ["src/styles/global.css"],
       "@/templates": ["src/components/templates/index.ts"],
       "@/types": ["src/types/index.ts"],

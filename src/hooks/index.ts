@@ -1,1 +1,2 @@
-export default null;
+// eslint-disable-next-line import/prefer-default-export
+export { default as useLayoutEffect } from './useLayoutEffect';

@@ -10,6 +10,16 @@
     "plugin:prettier/recommended",
     "plugin:react/jsx-runtime"
   ],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-unsafe-call": "off",
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ],
   "parserOptions": { "project": "tsconfig.eslint.json" },
   "plugins": [
     "simple-import-sort",

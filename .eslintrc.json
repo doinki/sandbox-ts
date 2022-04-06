@@ -57,7 +57,7 @@
     "simple-import-sort/imports": "warn",
     "sort-destructure-keys/sort-destructure-keys": "warn",
     "sort-keys-fix/sort-keys-fix": "warn",
-    "typescript-sort-keys/interface": ["warn", "asc", { "requiredFirst": true }]
+    "typescript-sort-keys/interface": "warn"
   },
   "settings": {
     "import/resolver": { "typescript": { "alwaysTryTypes": true } }

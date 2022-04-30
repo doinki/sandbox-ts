@@ -20,8 +20,6 @@
       "@/constants/*": ["src/constants/*"],
       "@/hooks": ["src/hooks/index.ts"],
       "@/hooks/*": ["src/hooks/*"],
-      "@/icons": ["src/components/atoms/icons/index.ts"],
-      "@/icons/*": ["src/components/atoms/icons/*"],
       "@/molecules": ["src/components/molecules/index.ts"],
       "@/molecules/*": ["src/components/molecules/*"],
       "@/organisms": ["src/components/organisms/index.ts"],

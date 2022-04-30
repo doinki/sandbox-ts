@@ -1,7 +1,18 @@
-/* eslint-disable @next/next/no-img-element, react/jsx-props-no-spreading */
+import type { ImageProps } from 'next/image';
+import Image from 'next/image';
+import type { FC } from 'react';
 
-const Logo: React.VFC<React.ImgHTMLAttributes<HTMLImageElement>> = (props) => {
-  return <img alt="Logo" src="/logo.png" {...props} />;
+const Logo: FC<Omit<ImageProps, 'src'>> = (props) => {
+  return (
+    <Image
+      alt="Logo"
+      height={64}
+      width={64}
+      unoptimized
+      {...props}
+      src="/logo.png"
+    />
+  );
 };
 
 export default Logo;

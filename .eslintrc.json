@@ -28,6 +28,7 @@
     "typescript-sort-keys"
   ],
   "rules": {
+    "@typescript-eslint/consistent-type-exports": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "jsx-a11y/alt-text": ["error", { "img": ["Image"] }],
     "jsx-a11y/anchor-is-valid": [
@@ -46,7 +47,10 @@
         "unnamedComponents": ["arrow-function"]
       }
     ],
-    "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
+    "react/jsx-props-no-spreading": [
+      "error",
+      { "custom": "ignore", "html": "ignore" }
+    ],
     "react/jsx-sort-props": [
       "error",
       { "callbacksLast": true, "reservedFirst": true, "shorthandLast": true }

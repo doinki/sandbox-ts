@@ -47,10 +47,7 @@
         "unnamedComponents": ["arrow-function"]
       }
     ],
-    "react/jsx-props-no-spreading": [
-      "error",
-      { "custom": "ignore", "html": "ignore" }
-    ],
+    "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
     "react/jsx-sort-props": [
       "error",
       { "callbacksLast": true, "reservedFirst": true, "shorthandLast": true }

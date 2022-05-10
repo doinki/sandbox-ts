@@ -9,11 +9,11 @@ const Logo: FC<Omit<ImageProps, 'src'>> = ({
 }) => {
   return (
     <Image
-      alt="Logo"
       height={height}
       width={width}
       unoptimized
       {...props}
+      alt="Logo"
       src="/logo.png"
     />
   );

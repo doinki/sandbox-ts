@@ -14,6 +14,8 @@
     "paths": {
       "@/api": ["src/api/index.ts"],
       "@/api/*": ["src/api/*"],
+      "@/icons": ["src/components/atoms/icons/index.ts"],
+      "@/icons/*": ["src/components/atoms/icons/*"],
       "@/atoms": ["src/components/atoms/index.ts"],
       "@/atoms/*": ["src/components/atoms/*"],
       "@/constants": ["src/constants/index.ts"],

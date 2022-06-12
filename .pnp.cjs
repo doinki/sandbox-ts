@@ -66,7 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.6.2"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:18.1.0"],\
-            ["tailwindcss", "virtual:bec610cc0e7db25ea0369a206db177a32a4891512cd3505e72f79bfd7a97feaaacd6a00199801d21b2f34f053045dd2a13769f61bc9182ae6cf3ac0e24755479#npm:3.1.0"],\
+            ["tailwindcss", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -5686,7 +5686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.6.2"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:18.1.0"],\
-            ["tailwindcss", "virtual:bec610cc0e7db25ea0369a206db177a32a4891512cd3505e72f79bfd7a97feaaacd6a00199801d21b2f34f053045dd2a13769f61bc9182ae6cf3ac0e24755479#npm:3.1.0"],\
+            ["tailwindcss", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -6093,10 +6093,51 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["npm:3.1.2", {\
+          "packageLocation": "./.yarn/cache/tailwindcss-npm-3.1.2-801f2a84a6-0c09783037.zip/node_modules/tailwindcss/",\
+          "packageDependencies": [\
+            ["tailwindcss", "npm:3.1.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["virtual:bec610cc0e7db25ea0369a206db177a32a4891512cd3505e72f79bfd7a97feaaacd6a00199801d21b2f34f053045dd2a13769f61bc9182ae6cf3ac0e24755479#npm:3.1.0", {\
           "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-754a83989f/0/cache/tailwindcss-npm-3.1.0-a44ca303ac-a61bc5dfae.zip/node_modules/tailwindcss/",\
           "packageDependencies": [\
             ["tailwindcss", "virtual:bec610cc0e7db25ea0369a206db177a32a4891512cd3505e72f79bfd7a97feaaacd6a00199801d21b2f34f053045dd2a13769f61bc9182ae6cf3ac0e24755479#npm:3.1.0"],\
+            ["@types/postcss", null],\
+            ["arg", "npm:5.0.1"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["color-name", "npm:1.1.4"],\
+            ["detective", "npm:5.2.1"],\
+            ["didyoumean", "npm:1.2.2"],\
+            ["dlv", "npm:1.1.3"],\
+            ["fast-glob", "npm:3.2.11"],\
+            ["glob-parent", "npm:6.0.2"],\
+            ["is-glob", "npm:4.0.3"],\
+            ["lilconfig", "npm:2.0.5"],\
+            ["normalize-path", "npm:3.0.0"],\
+            ["object-hash", "npm:3.0.0"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["postcss", "npm:8.4.14"],\
+            ["postcss-import", "virtual:754a83989f5a5903f2c90b72cb4803fe42ef606ec9a851918117b12848e92fd248ba6c820d8d0e54f4cfa3321acad8e4ead4f43a9b22b9d64ac9099f80315e5a#npm:14.1.0"],\
+            ["postcss-js", "virtual:754a83989f5a5903f2c90b72cb4803fe42ef606ec9a851918117b12848e92fd248ba6c820d8d0e54f4cfa3321acad8e4ead4f43a9b22b9d64ac9099f80315e5a#npm:4.0.0"],\
+            ["postcss-load-config", "virtual:754a83989f5a5903f2c90b72cb4803fe42ef606ec9a851918117b12848e92fd248ba6c820d8d0e54f4cfa3321acad8e4ead4f43a9b22b9d64ac9099f80315e5a#npm:3.1.4"],\
+            ["postcss-nested", "virtual:754a83989f5a5903f2c90b72cb4803fe42ef606ec9a851918117b12848e92fd248ba6c820d8d0e54f4cfa3321acad8e4ead4f43a9b22b9d64ac9099f80315e5a#npm:5.0.6"],\
+            ["postcss-selector-parser", "npm:6.0.10"],\
+            ["postcss-value-parser", "npm:4.2.0"],\
+            ["quick-lru", "npm:5.1.1"],\
+            ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss",\
+            "postcss"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.2", {\
+          "packageLocation": "./.yarn/__virtual__/tailwindcss-virtual-1213a29f81/0/cache/tailwindcss-npm-3.1.2-801f2a84a6-0c09783037.zip/node_modules/tailwindcss/",\
+          "packageDependencies": [\
+            ["tailwindcss", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.2"],\
             ["@types/postcss", null],\
             ["arg", "npm:5.0.1"],\
             ["chokidar", "npm:3.5.3"],\

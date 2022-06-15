@@ -13,6 +13,18 @@
   ],
   "overrides": [
     {
+      "extends": [
+        "plugin:jest-dom/recommended",
+        "plugin:jest/recommended",
+        "plugin:jest/style",
+        "plugin:testing-library/react"
+      ],
+      "files": [
+        "**/__tests__/**/*.@(j|t)s?(x)",
+        "**/?(*.)+(spec|test).@(j|t)s?(x)"
+      ]
+    },
+    {
       "files": ["*.js"],
       "rules": {
         "@typescript-eslint/no-unsafe-assignment": "off",
@@ -26,6 +38,7 @@
     "simple-import-sort",
     "sort-destructure-keys",
     "sort-keys-fix",
+    "trim",
     "typescript-sort-keys"
   ],
   "rules": {
@@ -60,6 +73,7 @@
     "sort-destructure-keys/sort-destructure-keys": "warn",
     "sort-keys-fix/sort-keys-fix": "warn",
     "tailwindcss/classnames-order": ["error", { "officialSorting": true }],
+    "trim/class-name": "warn",
     "typescript-sort-keys/interface": "warn"
   },
   "settings": {

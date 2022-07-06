@@ -42,4 +42,4 @@ yarn-error.log*
 !.yarn/sdks
 !.yarn/versions
 
-@next-swc*
+@next-swc-*

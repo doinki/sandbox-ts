@@ -7,5 +7,5 @@ const buildEslintCommand = (filenames) =>
 
 module.exports = {
   '*.@(j|t)s?(x)': [buildEslintCommand],
-  '*.json': 'yarn prettier --write',
+  '*.json': 'yarn dlx prettier --write',
 };

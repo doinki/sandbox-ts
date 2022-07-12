@@ -3,7 +3,9 @@
   "eslint.nodePath": ".yarn/sdks",
   "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
   "search.exclude": { "**/.pnp.*": true, "**/.yarn": true },
-  "tailwindCSS.experimental.classRegex": ["ClassName\\s*=\\s*[\"'`](.*)[\"'`]"],
+  "tailwindCSS.experimental.classRegex": [
+    "ClassName\\s*[:=]\\s*[\"'`](.*)[\"'`]"
+  ],
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "typescript.tsdk": ".yarn/sdks/typescript/lib"
 }
